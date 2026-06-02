@@ -1,0 +1,27 @@
+{
+  cluster: {
+    mode: "autonomous",
+    selfHealing: true,
+    replication: true
+  },
+
+  nodes: {
+    count: 3,
+    restartOnFailure: true
+  },
+
+  vm: {
+    sandbox: true,
+    autoRestart: true
+  },
+
+  network: {
+    mesh: true,
+    discovery: true
+  },
+
+  state: {
+    engine: "crdt",
+    sync: true
+  }
+}
