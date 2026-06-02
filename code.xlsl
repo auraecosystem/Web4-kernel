@@ -1,0 +1,25 @@
+web4-os-cluster/
+│
+├── bootstrap/
+│   └── index.pas
+│
+├── cluster/
+│   ├── node.js
+│   ├── supervisor.js
+│   ├── scheduler.js
+│   └── health.js
+│
+├── vm/
+│   └── vm.js
+│
+├── state/
+│   └── crdt.js
+│
+├── config/
+│   └── cluster.json5
+│
+├── network/
+│   └── mesh.js
+│
+├── package.json
+└── README.md
